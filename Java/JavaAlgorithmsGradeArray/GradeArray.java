@@ -1,3 +1,5 @@
+//Cool Java Grade Book Algorithm.
+
 
 import java.util.ArrayList;
 import java.util.Scanner;
