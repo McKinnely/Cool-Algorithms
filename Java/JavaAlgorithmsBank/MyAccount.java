@@ -1,3 +1,5 @@
+//Cool Java Bank Account Algorithm.
+
 import javax.swing.JOptionPane;
 
 public class MyAccount
