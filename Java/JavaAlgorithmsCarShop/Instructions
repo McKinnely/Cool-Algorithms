@@ -1,0 +1,23 @@
+University of Botswana, Department of Computer Science , ISS211- Intermediate Programming
+Laboratory Assignment Nr. 4 . September 13th 2016 0700- 0900
+
+Avanu hardware store in Obunti(a fictitious country in Africa), has
+contracted you to create a class called HardwareStoreInvoice that
+Avanu hardware store might use to represent an invoice for an item
+sold at their store.
+An Invoice should include four pieces of information as instance
+variables‐ a part_number(type String), a part_description(type
+String),a quantity of the item being purchased (type int) and a
+price per item (double).
+Your class should have a constructor that initializes the four
+instance variables.
+Provide a set and a get method for each instance variable.
+In addition, provide a method named getInvoiceAmount that
+calculates the invoice amount (i.e., multiplies the quantity by the
+price per item), then returns the amount as a double value. If the
+quantity is not positive, it should be set to 0. If the price per item is
+not positive, it should be set to 0.0.
+Write a test application (a program containing the main method)
+named InvoiceTest that demonstrates class Invoice’s
+capabilities.(i.e. create at least one HardwareStoreInvoice object,
+and call their methods to test if they work)
