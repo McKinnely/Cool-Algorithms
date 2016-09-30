@@ -1,4 +1,4 @@
-
+//Cool Hardware Algorithm.
 public class HardwareStoreInvoice 
 {
    String part_number;
