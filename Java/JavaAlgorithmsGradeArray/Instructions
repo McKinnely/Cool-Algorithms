@@ -1,0 +1,31 @@
+CSI247 Data Structures
+Lab III 
+August 2016
+  
+Question 1
+
+Write a program that performs the following.
+1) Construct a class called Student with the following attributes: ID which is an integer;Name which is a string and Faculty which is string.  
+2) Construct two constructors:
+The first constructor assigns ID and Name to the parameters supplied to the constructor. Faculty is randomly picked from Science, Business and Humanities.
+The second constructor assigns all the attributes to the parameters supplied.
+3) Construct the following methods for the class Student.
+Method SetID: sets student ID to a given ID.
+Method SetName: Sets student Name to a given Name.
+Method SetFaculty: Sets student Faculty to a given Faculty.
+Method GetID: returns student ID.
+Method GetName: returns student Name.
+Method GetFaculty: returns student Faculty.
+Method Display: displays/prints all attributes of a students if it receives the value 0 else it only prints student ID and Name. 
+4) Create a tester class with main method. Create 10 objects and put them in an array with the following details. Put these details in two arrays as below.
+Names = {“Moeng”, “Moesi”, “Mogapi”, “Selepe”, “Neo”, “Kgwetlho”, “Tshepho”, “Marothedi”}
+IDs = {100,200,300,400,500,600,700,800}
+Perform the following
+Display all students.
+Display all students in the Faculty of Science.
+Search for a student with ID=500 and change their name to “Kagiso”
+Search for a student named “Neo” and change their ID to 900.
+Display all students.
+Count the number of students in the faculty of Humanites.
+Search for a student named Selepe and print his/her ID and Faculty.
+	
