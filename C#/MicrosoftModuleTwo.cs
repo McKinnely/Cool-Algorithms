@@ -23,3 +23,47 @@ Used a decision structure to flip row output
 Output is correct per above image
 */
 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ModuleTwoAssignment
+{
+class Program
+{
+
+static void Main(string[] args)
+{
+
+string[] myArray = { "X", "O", "X", "O", "X", "O", "X", "O" };
+string[] myArrayFlip = { "O", "X", "O", "X", "O", "X", "O", "X" };
+
+	for (int x = 0; x <= 3; x++)
+	{
+	int y = 0;
+	foreach (string values in myArray)
+	{
+
+	Console.Write(myArray[y]);
+	y++;
+	}
+	Console.WriteLine("");
+	int i = 0;
+
+	if (myArray == myArray) //flip array
+	{
+	foreach (string values in myArrayFlip)
+	{
+	Console.Write(myArrayFlip[i]);
+	i++;
+	}
+	Console.WriteLine("");
+	}
+	}
+   Console.ReadLine();
+
+}
+}
+}
