@@ -1,3 +1,24 @@
+/*
+Return true if the given string is a palindrome. Otherwise, return false.
+
+A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation, case, and spacing.
+
+Note
+
+You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols) and turn everything lower case in order to check for palindromes.
+We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR" among others.
+We'll also pass strings with special symbols, such as "2A3*3a2", "2A3 3a2", and "2_A3*3#A2".
+*/
+
+
+function reverseString(reversing)
+{
+          reversing = reversing.split("");
+          reversing = reversing.reverse();
+          reversing = reversing.join("");
+
+          return reversing;
+}
 
 function palindrome(str) 
 {
@@ -23,10 +44,9 @@ function palindrome(str)
           size = size / 2;
           firstHalf  = removeCharacters.slice(0, -size);
           secondHalf = removeCharacters.slice(size);
+          
+          secondHalf = reverseString(secondHalf);
 
-          secondHalf = secondHalf.split("");
-          secondHalf = secondHalf.reverse();
-          secondHalf = secondHalf.join("");
           //Even
 
         }
@@ -39,9 +59,8 @@ function palindrome(str)
 
           size++;
           secondHalf = removeCharacters.slice(size);
-          secondHalf = secondHalf.split("");
-          secondHalf = secondHalf.reverse();
-          secondHalf = secondHalf.join("");      
+          secondHalf = reverseString(secondHalf);
+     
         }
       // console.log(removeCharacters);
       if (firstHalf == secondHalf)
