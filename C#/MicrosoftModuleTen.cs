@@ -26,7 +26,7 @@ Post your finished code in the Peer Review area.   You do NOT have to submit the
 
 /* Reminder
 Post your finished code in the Peer Review area. You do NOT have to submit the entire .cs file, just the LINQ code that you have written. If you want to verify a peer's code, paste their LINQ into your version of the project.
-* /
+*/
 
 public void Linq3()
 {
