@@ -1,0 +1,16 @@
+function repeatStringNumTimes(str, num) 
+{
+	var newString = "";
+	var counter = 0;
+
+ while (num > counter)
+ {
+  newString = str.concat(newString);
+  
+  counter++;
+}
+str = newString;
+return console.log(str);
+}
+
+repeatStringNumTimes("It Works*** ", 3);
