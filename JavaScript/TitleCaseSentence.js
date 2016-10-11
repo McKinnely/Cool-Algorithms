@@ -1,11 +1,10 @@
 
 function titleCase(str) 
-{
-         
+{      
             var counter = 0;
             var size    = 0;
 
-            str.toLowerCase();
+            str =  str.toLowerCase();
             str  = str.split(" ");
             size = str.length;
    
@@ -21,14 +20,18 @@ function titleCase(str)
             }
 
             str = str.join(" ");
+            console.log(str);
 
-console.log(str);
+            var max = 0;
+            var currentValue = 15;
 
+
+ console.log(max);
            
 }
 
 
-titleCase("The quick brown fox jumped over the lazy dog");
+titleCase("a person who nEver maDe a mistAke, never tried anyTHing new. einsteiN.");
 
        
           
