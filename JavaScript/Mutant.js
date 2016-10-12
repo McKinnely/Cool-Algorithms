@@ -1,12 +1,33 @@
-/*
-Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.
-For example, ["hello", "Hello"], should return true because all of the letters in the second string are present in the first, ignoring case.
-The arguments ["hello", "hey"] should return false because the string "hello" does not contain a "y".
-Lastly, ["Alien", "line"], should return true because all of the letters in "line" are present in "Alien".
-*/
-function mutation(arr) 
-{
-  return arr;
-}
+function mutation(input){
+	
+	var first  = input[0].toLowerCase().split("");
+	var second = input[1].toLowerCase().split("");
 
-mutation(["hello", "hey"]);
+	var match = 0;
+
+    var size = input[0].length;
+    var counter = 0;
+    var secondCounter = 0;
+    var secondSize = input[1].length;
+
+    while(size > counter)
+    {
+    	while(secondSize > secondCounter)
+    	{
+	         if (first[counter] == second[secondCounter])
+	         {
+	         	return true;
+	         }
+
+       	 secondCounter++;
+        }
+
+ 
+    counter++;
+    }
+	//console.log(first);
+	return false;
+	
+}
+ 
+mutation(["HellhYo", "hohhey"]);

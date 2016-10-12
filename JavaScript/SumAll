@@ -1,0 +1,24 @@
+
+function sumAll(arr) 
+{
+  var highNumber = Math.max.apply(Math, arr);
+  var lowNumber  = Math.min.apply(Math, arr);
+  var difference = (highNumber - lowNumber);
+  var counter    = 0;
+  var ext        = lowNumber;        
+  var addingNumber = lowNumber;
+
+
+   while(difference > counter )
+   {
+   addingNumber += (ext++);
+   	counter++;
+   }
+
+   addingNumber += difference;
+
+
+  return console.log(addingNumber);
+}
+
+sumAll([5, 10]);
