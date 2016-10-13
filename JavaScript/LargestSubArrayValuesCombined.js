@@ -6,17 +6,17 @@ Remember, you can iterate through an array with a simple for loop, and access ea
 
 function largestOfFour(arr) 
 {
-  // You can do this!
+ 
             var counter = 0;
             var size    = 0;
             var max     = 0;
- 			size = arr.length;
+ 			      size = arr.length;
              
           while(size > counter )
             { 
             	console.log(counter);
             	max = Math.max.apply(Math, arr[counter]);
-               arr[counter]  = max;
+               arr[counter]  = ;
               counter++;
             }
 
