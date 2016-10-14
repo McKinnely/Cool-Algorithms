@@ -1,5 +1,5 @@
 function myNum(num)
-{
+{ 
 	if(num < 10 && num > 0)
 	{
 		return counter;
@@ -23,7 +23,7 @@ function myNum(num)
     }
 }
 
-myNum(39);
+myNum(39); 
 
 /*
 Even better! If you're using ECMAScript 2015 (aka ECMAScript 6), it can be this pretty:
