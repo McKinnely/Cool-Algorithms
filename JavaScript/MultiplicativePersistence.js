@@ -14,7 +14,7 @@ function myNum(num)
      stringNum = Number(stringNum[0]) * Number(stringNum[1]);
      counter++;
      console.log(stringNum);
-      if(stringNum >= 0 && stringNum < 10)
+       if(stringNum >= 0 && stringNum < 10)
        {
     	console.log(  counter + " It Works!")
     	return true;
