@@ -5,15 +5,16 @@ function myNum(num)
 		return counter;
 	}
     var counter = 0;
-	var stringNum = num.toString();
+    var stringNum = num.toString();
 
     while(true)
     {
-	 stringNum = stringNum.toString();
+     stringNum = stringNum.toString();
      stringNum = stringNum.split("");
      stringNum = Number(stringNum[0]) * Number(stringNum[1]);
      counter++;
      console.log(stringNum);
+	    
        if(stringNum >= 0 && stringNum < 10)
        {
     	console.log(  counter + " It Works!")
