@@ -16,7 +16,7 @@ function largestOfFour(arr)
             { 
             	console.log(counter);
             	max = Math.max.apply(Math, arr[counter]);
-               arr[counter]  = ;
+              arr[counter]  = max;
               counter++;
             }
 

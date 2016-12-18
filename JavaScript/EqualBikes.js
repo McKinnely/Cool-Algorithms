@@ -11,7 +11,7 @@ size = arr.length;
 
           if (arr[size -1] == arr[size])
           {
-          	console.log( "Array values for the lasst value of middle of array and the first value of the middle of the array matches." );
+          	console.log( "Array values for the last value of middle of array and the first value of the middle of the array matches." );
             console.log( "Values are: " + arr[size] + " and " + arr[size -1]);
           }
 
