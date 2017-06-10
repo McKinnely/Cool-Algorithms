@@ -2,7 +2,7 @@ University of Botswana, Department of Computer Science , ISS211- Intermediate Pr
 Laboratory Assignment Nr. 4 . September 13th 2016 0700- 0900
 Instructions: Answer all questions. Marks allocations are to be found in [ ] against
 each question. 
-
+ 
 Q1.
 Modify class MyAccount (in the example) to provide a method called debit that
 withdraws money from an account of MyAccount class. Ensure that the debit
