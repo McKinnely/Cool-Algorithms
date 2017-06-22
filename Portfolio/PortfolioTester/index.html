@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<!--********Project: Build a Portfolio***************
+*                                                   *
+*   Software Engineer: McKinnely Bentley            *
+*   Project: Build a Portfolio                      *
+*   Inputs:  None                                   *
+*   Outputs: Outputs data based on specs given      *
+*   in the Udacity specification doc.               *
+*                                                   *
+**************************************************-->
+<html>
+<!--Head Begins-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-US-Compatiable" content="IE=edge">
+	<meta name "viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Test</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<!--Head Ends-->
+<!--Comment Devider-->
+<!--Body Begins-->
+<body>
+	<!--Div Container Class Begins-->
+	<div class="container">
+		<!--Contains Name and Logo-->
+		<div class="row">
+			<!--Semantic Header Begins-->
+			<header>
+				<div class="col-md-6">
+					<img src="images/logo.jpg" alt="Logo Image">
+				</div>
+				<div class="col-md-6 text-right text-uppercase">
+					<h1>McKinnely Bentley</h1>
+					<h4>Software Engineer</h4>
+				</div>
+			</header>
+			<!--Semantic Header Ends-->
+		</div>
+		<!--Contains HR Line-->
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
+			<!--Contains Droidbots Image-->
+			<div class="row">
+				<div class="col-md-12">
+					<img class="img-responsive" src="images/droidbots.jpg" alt="Droid Image" >
+				</div>
+			</div>
+			<!--Contains Featured Web App Text-->
+			<div class="row">
+				<div class="col-md-12 text-uppercase">
+					<h1>
+						Web Apps
+					</h1>
+				</div>
+			</div>
+			<!--Contains The Movie Trailer Image-->
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive img-rounded" src="images/peanutsMovie.jpg" alt="Hunger Games Image" style="height:216.783px; width:370px;">
+					<h1> Movie Trailer </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#movieTrailerModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="movieTrailerModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Movie Trailer App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Movie Trailer<br><br> Primary Language: Python<br><br> Developed OOP server-side code to store a 
+									 list of favorite movies, including box art imagery and a movie trailer URL. I served this
+									 data as a web page allowing visitors to review their movies and watch the trailers.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Ubuntu Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/calc.jpg" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Calculator </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ubuntuModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="ubuntuModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Ubuntu App!</h4>
+								</div>
+								<div class="modal-body">
+									<p>Website: Code Wars.<br><br> Instructions: Find the multiplicative persistence.<br><br> Thought Process: To find
+										the multiplicative persistence, one has to separate a given number into single digits and multiply those numbers
+										until the one reaches a single digit. I used the logic I learned in the foregoing algorithms to solve this algorithm
+										as a whole. After running the numbers 39, one should get the answer of 4.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Linux Cubed Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/html55.png" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> JS Pong </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#cubedModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="cubedModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Linux cubed App!</h4>
+								</div>
+								<div class="modal-body">
+									<p>Website: Code Wars.<br><br> Instructions: Find the multiplicative persistence.<br><br> Thought Process: To find
+										the multiplicative persistence, one has to separate a given number into single digits and multiply those numbers
+										until the one reaches a single digit. I used the logic I learned in the foregoing algorithms to solve this algorithm
+										as a whole. After running the numbers 39, one should get the answer of 4.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-uppercase">
+					<h1>
+						Mobile Apps
+					</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/coffee.png" alt="Coffee Cup Image" style="height:216.783px; width:370px;">
+					<h1> Just Java </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#justJavaApp">Learn More!</button>
+					<!-- Modal -->
+					<div id="justJavaApp" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Just Java App!</h4>
+								</div>
+								<div class="modal-body">
+									<p>Project: Just Java<br> Primary Language: Java<br> GitHub: <a href="https://github.com/McKinnely/Droid-Input/blob/master/app/src/main/java/com/example/mckinnely/justjava/MainActivity.java" target="_blank">Code</a>  <br> <br> Developed OOP Android     coffee ordering app.
+									   It takes in the user's order while using multiple data parsing methods, and sends the data to an implicit 
+									   intent that will capture the order information in the primary email.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Ubuntu Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/books.jpg" alt="Brain Image" style="height:216.783px; width:370px;">
+					<h1> Quiz </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#quizModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="quizModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Quiz App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Quiz<br> Primary Language: Java<br> GitHub: <a href="https://github.com/McKinnely/QuizApp/blob/master/app/src/main/java/com/example/mckinnely/quizapp/MainActivity.java" target="_blank">Code</a>  <br> <br>
+									    Developed OOP quiz app.
+									    The user is questioned in a format that allows for him/her to analyze data and 
+										make logical choices based on the given data. TextViews, ScrollViews LinearLayouts, and
+										multiple data parsing methods are used in this application to send the output to the 
+										user.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Linux Cubed Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/pushups.jpg" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Push Up Tracker </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#pushUpTracker">Learn More!</button>
+					<!-- Modal -->
+					<div id="pushUpTracker" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Push Up App!</h4>
+								</div>
+								<div class="modal-body">
+									<p>Project: Push Up Tracker<br> Primary Language: Java<br>GitHub: <a href="https://github.com/McKinnely/QuizApp/blob/master/app/src/main/java/com/example/mckinnely/quizapp/MainActivity.java" target="_blank">Code</a>  <br> <br>
+									 Developed OOP Android Push Up Tracker App. While working out, I noticed it was tough to keep jotting the workout numbers down while continuing to try to get back to my workout. Being a programmer,    I decided to create my own push up tracker app because doing so would only help to enhance one’s programming skills. The app is coded using multiple methods to correctly capture and increment the amount of push ups for the user. If the user decides to restart     his/her workout, the reset method will allow for such.
+								    </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<br/>
+
+				<div class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/hpyB.png" alt="Hunger Games Image" style="height:216.783px; width:370px;">
+					<h1> Brirthday App </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#hpyBModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="hpyBModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Birthday App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Birthday App<br> Primary Language: Java<br>GitHub: <a href="https://github.com/McKinnely/Android-Projects/blob/master/app/src/main/res/layout/activity_main.xml" target="_blank">Code</a>  <br> <br>								   
+										Took hand drawn app designs and layed them out on the phone screen.
+										Developed the XML markup language used to lay out Android applications.
+										Developed Views and ViewGroups to use to display images and text.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Ubuntu Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/tourguide.png" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Tour Guide App</h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#tourguideModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="tourguideModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Tour Guide App!</h4>
+								</div>
+								<div class="modal-body">
+										<p>Project: Tour Guide<br> Primary Language: Java<br>GitHub: <a href="https://github.com/McKinnely/AtlantaTourGuide2/blob/master/app/src/main/res/layout/activity_main.xml" target="_blank">Code</a>  <br> <br>
+									       Developed a tour guide app for the city of Atlanta that uses Android fragments, intents, and text layouts. 
+										   The app shows some of the most popular places to visit in Atlanta, ranging from outdoors, night life, and restaurants.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Linux Cubed Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/miwo.jpg" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Miwok App </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#miwoModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="miwoModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Miwok App!</h4>
+								</div>
+								<div class="modal-body">
+											<p>Project: Miwok App<br> Primary Language: Java<br>GitHub: <a href="https://github.com/McKinnely/Miwok/blob/master/app/src/main/java/com/example/android/miwok/Word.java" target="_blank">Code</a>  <br> <br>
+									           Developed Andoird Miwok app.It uses multiple layout screens, 
+										       intents relatives to inside of the app, and an arraylist add 
+											   voice, image, and text data to the app.
+									</p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="row">
+				<div class="col-md-12 text-uppercase">
+					<h1>
+						Desktop Apps
+					</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/SecPlusPic.jpg" alt="Coffee Cup Image" style="height:216.783px; width:370px;">
+					<h1> Security </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#secPlus">Learn More!</button>
+					<!-- Modal -->
+					<div id="secPlus" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Security Plus App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Security Plus<br> Primary Language: C#<br> GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/SecurityPlusQuizzer/SecurityPlusQuizzer/Form1.cs" target="_blank">Code</a>  <br> <br>
+									    Designed to help students 
+									    that are studying for the CompTia Security Plus certification, by testing their protocol knowledge. 
+										The programmatic logic test two arrays comparing their index values against each 
+										other in order to check the input data for correct or incorrect answers.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Ubuntu Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/Octocat.png" alt="Brain Image" style="height:216.783px; width:370px;">
+					<h1> Tech Jeopardy </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#techJeopardy">Learn More!</button>
+					<!-- Modal -->
+					<div id="techJeopardy" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Tech Jeopardy App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Tech Jeopardy.<br>Primary Language: C#<br>GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/TechJ_Jeopardy/TechJeopardy.cs" target="_blank">Code</a>  <br> <br>
+									    Completed a desktop 
+									    application game (Tech Jeopardy) in C# that’s similar in logic to the traditional Jeopardy game
+                                        show but reverse engineered to ask tech related questions. One user versus the AI. Multiple arrays
+										are used to check questions and answer data against each other to come up with a logical conclusion. 
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Linux Cubed Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive img-rounded" src="images/healthy.jpg" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Health Profile </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#healthModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="healthModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Health Profile App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Health Profiler<br>Primary Language: C#<br> GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/MyHealthPrflGUI/MyHealthPrflGUI/HealthProfile.cs" target="_blank">Code</a>  <br> <br>
+									    Implemented a real world health profile application in C# that’s used to calculate a person’s 
+										BMI, given the formula “BMI = (Weight * 703) / (Height * Height)”. Used the OOP logical 
+										paradigm to calculate the person’s age, and minimum and maximum, heart rate.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+          <br>
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<img class="img-responsive img-circle" src="images/airline.png" alt="Coffee Cup Image" style="height:216.783px; width:370px;">
+					<h1> Airline </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#secPlus">Learn More!</button>
+					<!-- Modal -->
+					<div id="secPlus" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title"Airline App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Airline<br> Primary Language: C#<br> GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/SecurityPlusQuizzer/SecurityPlusQuizzer/Form1.cs" target="_blank">Code</a>  <br> <br>
+									    Designed to help students 
+									    that are studying for the CompTia Security Plus certification, by testing their protocol knowledge. 
+										The programmatic logic test two arrays comparing their index values against each 
+										other in order to check the input data for correct or incorrect answers.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Ubuntu Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive" src="images/grad.jpg" alt="Brain Image" style="height:216.783px; width:370px;">
+					<h1> Graduation Planner </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#gradModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="gradModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Graduation Planner App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Graduation Planner <br>Primary Language: Java<br>GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/GraduationPlanner/GraduationPlanner.java" target="_blank">Code</a>  <br> <br>
+									    Implemented a graduation planner desktop application in Java, using the constraints defined by the project.
+                                        Swing API is used to create the graphical user interface. Created exception handling using try/catch, to 
+										insure ease of program flow, and input validation. The Java AWT toolkit was used to create sound in the application.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--Contains Linux Cubed Image-->
+				<div class="col-md-4 text-center">
+					<img class="img-responsive img-circle" src="images/java1.png" alt="Droid Image" style="height:216.783px; width:370px;">
+					<h1> Student Roster </h1>
+					<!-- Trigger the modal with a button -->
+					<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#rosterModal">Learn More!</button>
+					<!-- Modal -->
+					<div id="rosterModal" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+							<!-- Modal content-->
+							<div class="modal-content text-left">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal" style="float: right;">&times;</button>
+									<h4 class="modal-title">Student Roster App!</h4>
+								</div>
+								<div class="modal-body">
+									 <p>Project: Student Roster<br>Primary Language: Java<br> GitHub: <a href="https://github.com/McKinnely/My-Projects/blob/master/StudentRoster/Roster.java" target="_blank">Code</a>  <br> <br>
+									    Implemented the OOP paradigm using
+									    Java to correctly construct objects to relay the captured information to the entire application.
+                                        Implemented encapsulation, while logically looping through array’s data to capture it and place it
+										inside of an array list to be processed by all data parsing methods.
+									 </p>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<!--Contains  Footer And Contact Information-->
+			<div class="row">
+				<div class="col-md-12 text-center text-uppercase">
+					<footer>
+						<br>
+						<p>Software Engineer: McKinnely Bentley<br> Contact information: <a href="http://mbcodeguy.blogspot.com/p/about-me.html">
+  						Lets Stay In Contact</a>.</p>
+					</footer>
+				</div>
+			</div>
+		</div>
+		<!--Div Container Ends-->
+</body>
+<!--Body Ends-->
+</html>
