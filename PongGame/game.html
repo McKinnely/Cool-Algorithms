@@ -1,0 +1,29 @@
+<html>
+
+<canvas id ="gameCanvas" width = "800" height="600" </canvas>
+<script>
+    var canvas;
+    var canvasContext;
+    var ballX = 50;
+    window.onload = function()
+    {
+        console.log("Working...");
+        canvas = document.getElementById('gameCanvas');
+        canvasContext = canvas.getContext('2d');
+        drawEverything();
+        drawEverything();
+        drawEverything();
+    }
+    function drawEverything()
+    {
+        ballX += 10;
+
+        canvasContext.fillStyle = 'black';
+        canvasContext.fillRect(0,0, canvas.width,canvas.height);
+        canvasContext.fillStyle = 'white';
+        canvasContext.fillRect(225, 210, 200, 200);
+        canvasContext.fillStyle = 'red';
+        canvasContext.fillRect(ballX, 200, 50, 25);
+    }
+    </script>
+</html>
