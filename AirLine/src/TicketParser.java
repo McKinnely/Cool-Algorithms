@@ -3,7 +3,7 @@
 *                                                   *                                             
 *   Software Engineer: McKinnely Bentley 	    
 *   Description: Just a personal challenge.               
-*   Inputs: Flight Information.                  *
+*   Inputs: Flight Information.                  
 *   Outputs: Outputs data based on specs given      *
 *   in the challenge doc.                	    *
 *  	     	      	                            *
