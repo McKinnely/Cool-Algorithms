@@ -1,18 +1,19 @@
 
+/**************Java Challenge************************
+*                                                   *                                             
+*   Software Engineer: McKinnely Bentley 	    *
+*   Description: Just a personal challenge.         *
+*   Inputs: Flight Information.            *
+*   Outputs: Outputs data based on specs given      *
+*   in the challenge doc.                	    *
+*  	     	      	                            *
+*****************************************************/
+
+
 import java.time.Year;
 import java.util.Arrays;
 import javax.swing.JOptionPane;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author Family
- */
 class TicketParser 
 {
      private String  firstName;
