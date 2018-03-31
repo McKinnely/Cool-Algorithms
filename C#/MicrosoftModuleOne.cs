@@ -53,6 +53,8 @@ country = "USA";
 
 Console.WriteLine("First Name: {0}\n" + "Course: {1}\n" + "Program: {2}\n" + "Degree: {3}\n", firstName, lastName, addressLine1, addressLine2;// city, state_Province, zip, country);
 
+Console.WriteLine("Test");
+
 }
 
 }

@@ -12,7 +12,7 @@ function findMaxKidCandy()
 
     answer = 3/10;
    answer = 3 * kids;
-   console.log(answer);
+   write(answer);
 }
   
 
