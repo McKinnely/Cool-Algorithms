@@ -7,7 +7,7 @@ size = arr.length;
 
    if(size % 2 == 0)
         {
-          size = size / 2;
+          size = size / 2; 
 
           if (arr[size -1] == arr[size])
           {
