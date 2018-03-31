@@ -6,7 +6,7 @@ If the number in bobArray at index 1 for example is greater than the number of j
 Count up the total number of points for each person and return them in a new array of length === 2, where the 0-index is the number of points Bob has and the 1-index is the number of points for Jane. 
 Then write that total points array to the screen. Here is the codepen: http://codepen.io/gwenf/pen/qNQYPw?editors=0010
 If you want to participate, fork this codepen, solve the challenge and post a link in the comments here. Next week on Monday, we can look over the solutions together, try to optimize the code, and give each other suggestions.
-*/
+ */
 
 // Data of how many views Bob and Jane got over the course of 1 week on their sites.
 var bobArray =  [6, 15, 9, 3, 5, 11, 22];
