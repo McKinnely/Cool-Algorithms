@@ -9,23 +9,16 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 Remember to use Read-Search-Ask if you get stuck.
 */
 
-function factorialize(num)
+function factorialize(num) 
 {
-  
-  counter = 1;
-  number = 1;
-  while(num > counter)
-{
-  number *= (counter + 1);
-  
-  
- console.log(number);
- counter++;
- 
-}
-num = number;
-console.log(number);
-  return num;
+  var holder = 1;
+  for(var counter = 1; counter <= num; counter++)
+    {
+      holder*=counter;
+      console.log(holder);
+    }
+    return(holder);
 }
 
 factorialize(5);
+

@@ -4,38 +4,15 @@ For the purpose of this exercise, you should also capitalize connecting words li
 Only the first letter should remain in caps. 
 */
 
-
 function titleCase(str) 
-{      
-            var counter = 0;
-            var size    = 0;
-
-            str =  str.toLowerCase();
-            str  = str.split(" ");
-            size = str.length;
-   
-            var firstChar;
-            var restOfString;
-
-            while(size > counter )
-            { 
-              firstChar     = str[counter].charAt(0).toUpperCase();
-              restOfString  = str[counter].slice(1, str[counter].length);
-              str[counter]  = firstChar + restOfString;
-              counter++;
-            }
-
-            str = str.join(" ");
-            console.log(str);
-
-            var max = 0;
-            var currentValue = 15;
-
-
- console.log(max);
-           
+{ 
+  str = str.toLowerCase().split(" ");
+  str =  str.map(function (val)
+  {
+   return  val.charAt(0).toUpperCase() + val.slice(1);         
+  });  
+  console.log(str.join(" "));
 }
-
 
 titleCase("a person who nEver maDe a mistAke, never tried anyTHing new. einsteiN.");
 
