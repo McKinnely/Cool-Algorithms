@@ -12,12 +12,31 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 85
 */
 
 
-function largestOfFour(arr) 
+function confirmEnding(str, target) 
 {
- arr = arr.map(function (val)
-  {
-   return Math.max.apply(Math, val);
-  });
-}
+  var startIndexO = str.length- 1;
+  var startIndex = str.lastIndexOf(" ");
+  startIndex = startIndex + 1;
 
-largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+ if(str.includes(" "))
+ {
+   str = str.substring(startIndex);
+   if(str === target)
+   {
+   console.log("true 1");
+   }
+ }
+ else 
+  if(str.substring(startIndexO) === target)
+   {
+     console.log("true 2");
+     console.log(str.substring(startIndexO));
+   }
+  }
+
+confirmEnding("Bastian Going far", "far");
+confirmEnding("r", "k");
+confirmEnding("ben", "n");
+
+
+
