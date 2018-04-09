@@ -11,14 +11,14 @@ Remember to use Read-Search-Ask if you get stuck.
 
 function factorialize(num) 
 {
-  var holder = 1;
+  var holder = 0;
   for(var counter = 1; counter <= num; counter++)
     {
-      holder*=counter;
+      holder+=counter;
       console.log(holder);
     }
     return(holder);
 }
 
-factorialize(5);
+factorialize(12);
 
