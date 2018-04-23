@@ -1,14 +1,13 @@
 
 
 function myReplace(str, before, after) 
-{
-  
+{ 
   //Purpose: Turn string "str", into an array.
   //Reason : Arrays have built in methods that allows easier parsing of data.
   str = str.split(" ");
   var counter = 0;
   //Purpose: Search string "str" for middle paramater "before".
-  //Reason : The logic is to find the string "before" and replace it with the string "after".
+  //Reason : The logic is to find string "before" and and replace it with the last param, "after".
     for(var val of str)
         {
             if(val.includes(before))
