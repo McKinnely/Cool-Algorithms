@@ -1,5 +1,5 @@
 
-function rot13(str) 
+function Robinson(str) 
 { // LBH QVQ VG!
   var counter = 0;
   newStr = [str.length];
@@ -36,5 +36,5 @@ function rot13(str)
 }
 
 // Change the inputs below to test
-rot13("LBH QVQ VG!");
-rot13("SERR PBQR PNZC");
+Robinson("LBH QVQ VG!");
+//rot13("SERR PBQR PNZC");
