@@ -12,11 +12,13 @@ Remember to use Read-Search-Ask if you get stuck.
 function factorialize(num) 
 {
   var holder = 0;
-  for(var counter = 1; counter <= num; counter++)
+  var arr = [1,5,7];
+    
+    arr.map(function (val)
     {
-      holder+=counter;
-      console.log(holder);
-    }
+       console.log(val + 1);
+    });
+
     return(holder);
 }
 
