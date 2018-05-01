@@ -1,40 +1,18 @@
-function convertHTML(str) 
+
+function main()
 {
-str = str.split("");
-
-newArray = str.map(function (val)
-{  
-    switch (val) 
-    {
-     case '"':
-      val = '&quot;';
-      return val;
-     case '&':
-      val = ('&amp;');
-      return val;
-     case '<':
-      val = ('&lt;');
-      return val;
-     case '>':
-      val = '&gt;';
-      return val;
-     case "'":   
-      val = ('&apos;');
-      return val;
-     default:
-      return val;
-    }
-});
-
-newArray = newArray.join("");
-
-console.log(newArray);
-
-  // &colon;&rpar;
-  return str;
+  // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
+  const PI = Math.PI;
+  var r  = 2.6;  
+  r =  Number.parseFloat(r).toFixed(3);
+  var area      = PI * (r * r);
+  var perimiter = 2 * PI * r;
+  // Print the area of the circle:
+    console.log(area);
+  // Print the perimeter of the circle:
+    console.log(perimiter);
 }
 
 
 
-
-convertHTML("Hamburgers > Pizza > Tacos");
+main();
