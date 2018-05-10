@@ -3,16 +3,18 @@ function countVowels(str)
 {
    var vowels = "aeiou";
    var count = 0;
-	for(var val of str)
+	for(var val1 of str)
 	{
-      if(val.match(/[aeiuo]/))
-	  {
-		  count++
-	  }
+		for(var val2 of vowels)
+		{
+			if(val1 === val2)
+			{
+				count++;
+			}
+		}
 	} 
 
 	return(count);
 }
-
 
 countVowels("printing");
