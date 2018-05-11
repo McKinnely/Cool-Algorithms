@@ -3,16 +3,17 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 */
 
+'use strict'
+
 function findMaxKidCandy() 
     {
-    var candy = 10;
-    var kids = 3;
-
-    var answer = 0;
+      let candy = 10;
+      let kids = 3;
+      let answer = 0;
 
     answer = 3/10;
-   answer = 3 * kids;
-   write(answer);
+    answer = 3 * kids;
+    console.log(answer);
 }
   
 

@@ -4,10 +4,10 @@ function getSecondLargest(nums)
 {
 
   nums = nums.sort(function(a, b){return b-a});
-      var counter = 1;
+      let counter = 1;
       //console.log(counter);
 
-  for(var val of nums)
+  for(let val of nums)
       {
          //console.log(nums[counter]);
         if(nums[counter] < val)

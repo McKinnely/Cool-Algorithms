@@ -2,15 +2,17 @@
 /*
  * Complete the Rectangle function
  */
+'use strict'
+
 function Rectangle(a, b) 
 { 
            
-var rec = {
+let rec = {
             length : a,
             width  : b,
             perimeter : 2 * (a + b),
             area : a * b
-            };
+          };
     return console.log(rec);
 
 }

@@ -9,10 +9,12 @@ For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 Remember to use Read-Search-Ask if you get stuck.
 */
 
+'use strict'
+
 function factorialize(num) 
 {
-  var holder = 0;
-  var arr = [1,5,7];
+  let holder = 0;
+  let arr = [1,5,7];
     
     arr.map(function (val)
     {

@@ -1,11 +1,15 @@
+
+
+'use strict'
+
 function myNum(num)
 { 
 	if(num < 10 && num > 0)
 	{
 		return counter;
 	}
-    var counter = 0;
-    var stringNum = num.toString();
+    let counter = 0;
+    let stringNum = num.toString();
 
     while(true)
     {

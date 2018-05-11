@@ -3,16 +3,16 @@ Return the length of the longest word in the provided sentence.
 Your response should be a number.
 */
 
-
+'use strict'
 
 function findLongestWord(str) 
 {
 
-var longestWord = '';
-var words = str.split(" ");
-var counter = 0;
+let longestWord = '';
+let words       = str.split(" ");
+let counter     = 0;
 
-for(var val of words)
+for(let val of words)
 {
     if(words[counter].length > longestWord.length)
     {
@@ -22,6 +22,5 @@ for(var val of words)
 }
     console.log(longestWord);
     console.log(longestWord.length);
-      
  }
 findLongestWord("Energy can neither be created or destroyed!");

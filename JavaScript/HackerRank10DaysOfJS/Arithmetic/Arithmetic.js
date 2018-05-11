@@ -6,6 +6,8 @@
 *   
 *	Return a number denoting the rectangle's area.
 **/
+'use strict'
+ 
 function getArea(length, width) 
 {
     let area;

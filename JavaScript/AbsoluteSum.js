@@ -13,12 +13,12 @@ Examples
 [-1] ➞ 1
 */
 
-
+'use strict'
 
 function getAbsSum(arr) 
 {   
       
-  var total = 0;
+  let total = 0;
 
   arr.map(function (val)
   {

@@ -1,9 +1,12 @@
+
+'use strict'
+
 function mutation(arr) 
 {
-    var firstHalf  = arr[0].toLowerCase().split("");
-    var secondHalf = arr[1].toLowerCase().split("");
+    let firstHalf  = arr[0].toLowerCase().split("");
+    let secondHalf = arr[1].toLowerCase().split("");
 
-  for(var counter = 0; counter < secondHalf.length; counter++)
+  for(let counter = 0; counter < secondHalf.length; counter++)
   {
     
     if(firstHalf.indexOf(secondHalf[counter]) === -1)

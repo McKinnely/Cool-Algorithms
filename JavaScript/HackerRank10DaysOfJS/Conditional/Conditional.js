@@ -1,7 +1,9 @@
+'use strict'
+
 
 function getGrade(score) 
 {
-    var grade;
+    let grade;
     // Write your code here
    if(score >= 25 && score <= 30)
    {

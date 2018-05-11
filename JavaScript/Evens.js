@@ -2,7 +2,7 @@ function noOdds(arr)
 {
    arr = arr.filter(function (val)
    {
-        if(val % 2 == false)
+        if(val % 2 === false)
         {
             return val;
         }

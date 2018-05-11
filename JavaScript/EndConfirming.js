@@ -3,18 +3,18 @@ Check if a string (first argument, str) ends with the given target string (secon
 This challenge can be solved with the .endsWith() method, which was introduced in ES2015.
 But for the purpose of this challenge, we would like you to use one of the JavaScript substring methods instead.
 */
-
+'use strict'
 
 function confirmEnding(str, target) 
 {
          //str  = str.split("");
-            lCFPsize = str.length -1;
-            lCSPsize = target.length -1;
+            let lCFPsize = str.length -1;
+            let lCSPsize = target.length -1;
 
-            var lastCharFirtParameter    = str.charAt(lCFPsize);
-            var lastCharSecondParameter  = target.charAt(lCSPsize);
+            let lastCharFirtParameter    = str.charAt(lCFPsize);
+            let lastCharSecondParameter  = target.charAt(lCSPsize);
 
-if( lastCharFirtParameter == lastCharSecondParameter)
+if(lastCharFirtParameter == lastCharSecondParameter)
 {
   console.log("True");
   return true;

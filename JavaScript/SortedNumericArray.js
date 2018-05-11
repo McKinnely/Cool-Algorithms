@@ -1,4 +1,7 @@
-var array =  [1,2,3,6,7,4,5];
+
+'use strict'
+
+let array =  [1,2,3,6,7,4,5];
 
 array.sort(function(a,b)
 {

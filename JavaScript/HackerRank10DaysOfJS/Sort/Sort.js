@@ -1,3 +1,5 @@
+'use strict'
+
 function vowelsAndConsonants(s) 
 {
     let vowels = ["a", "e", "i", "o", "u"];

@@ -9,21 +9,22 @@ If you want to participate, fork this codepen, solve the challenge and post a li
  */
 
 // Data of how many views Bob and Jane got over the course of 1 week on their sites.
-var bobArray =  [6, 15, 9, 3, 5, 11, 22];
-var janeArray = [2, 20, 9, 7, 6, 9,  30];
-var bobArrayTotalScore = 0;
-var janArrayTotalScore = 0;
-var indexValueCompare     = 0;
-var arrayValueLength = bobArray.length-1;
-var bobName  = "Bob:";
-var janeName = "Jane:";
- 
+
+'use strict'
+
+let bobArray =  [6, 15, 9, 3, 5, 11, 22];
+let janeArray = [2, 20, 9, 7, 6, 9,  30];
+let bobArrayTotalScore = 0;
+let janArrayTotalScore = 0;
+let indexValueCompare     = 0;
+let arrayValueLength = bobArray.length-1;
+let bobName  = "Bob:";
+let janeName = "Jane:";
+let newArray = [];
  
  
 function compareData (bobArray, janeArray, bobName, janeName)
 {
- 
- 
  while(arrayValueLength  >= indexValueCompare  )
  {
   if (bobArray[indexValueCompare] > janeArray[indexValueCompare])
@@ -41,7 +42,7 @@ function compareData (bobArray, janeArray, bobName, janeName)
     indexValueCompare++;
  }
  
-  var newArray = [bobName + bobArrayTotalScore, janeName + janArrayTotalScore];
+  newArray = [bobName + bobArrayTotalScore, janeName + janArrayTotalScore];
   return console.log(newArray);
  
  

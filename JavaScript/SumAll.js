@@ -1,13 +1,15 @@
 
+'use strict'
+
 function sumAll(arr) 
 {
-  var highNumber = Math.max.apply(Math, arr);
-  var lowNumber  = Math.min.apply(Math, arr);
-  var difference = (highNumber - lowNumber);
-  var adding = lowNumber;
+  let highNumber = Math.max.apply(Math, arr);
+  let lowNumber  = Math.min.apply(Math, arr);
+  let difference = (highNumber - lowNumber);
+  let adding = lowNumber;
   
 
-  for(counter = 0; counter < difference; counter++)
+  for(let counter = 0; counter < difference; counter++)
   { 
   
   adding++;

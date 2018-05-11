@@ -1,8 +1,10 @@
 
+'use strict'
+
 function Robinson(str) 
 { // LBH QVQ VG!
-  var counter = 0;
-  newStr = [str.length];
+  let counter = 0;
+  let newStr = [str.length];
   str = str.toUpperCase().split("");
    
   str.map(function (val)

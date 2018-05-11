@@ -1,11 +1,13 @@
 
+'use strict'
+
 function countVowels(str) 
 {
-   var vowels = "aeiou";
-   var count = 0;
-	for(var val1 of str)
+   let vowels = "aeiou";
+   let count = 0;
+	for(let val1 of str)
 	{
-		for(var val2 of vowels)
+		for(let val2 of vowels)
 		{
 			if(val1 === val2)
 			{

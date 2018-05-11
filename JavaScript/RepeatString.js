@@ -2,10 +2,12 @@
 Repeat a given string (first argument) num times (second argument). Return an empty string if num is not a positive number.
 */
 
+'use strict'
+
 function repeatStringNumTimes(str, num) 
 {
-	var newString = "";
-	var counter = 0;
+	let newString = "";
+	let counter = 0;
 
  while (num > counter)
  {

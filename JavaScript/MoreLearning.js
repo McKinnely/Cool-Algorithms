@@ -15,7 +15,7 @@ function isFourLetters(arr)
 {
   arr = arr.filter(function (val)
   {
-     if(val.length == 4)
+     if(val.length === 4)
      {
        return val;
      }

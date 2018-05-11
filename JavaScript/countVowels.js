@@ -16,12 +16,12 @@ Notes
 a, e, i, o, u are considered vowles (not y).
 All test cases are one word and only contain letters.
 */
-
+'use strict'
 
 function countVowels(str) 
 {
-    var count = 0;
-	for(var val of str)
+    let count = 0;
+	for(let val of str)
 	{
       if(val.match(/[aeiuo]/))
 	  {

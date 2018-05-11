@@ -18,7 +18,6 @@ function isPositive(a)
     catch(error) 
     {
       return console.log(error);
-
     }
 }
 
