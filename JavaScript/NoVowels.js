@@ -26,5 +26,4 @@ function silenceTrump(str)
 		return console.log(str.replace(/[aeiuoAEIOU]/, ""));
 }
 
-
 silenceTrump("prInting and waAlking");
