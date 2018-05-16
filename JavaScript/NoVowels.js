@@ -27,3 +27,15 @@ function silenceTrump(str)
 }
 
 silenceTrump("prInting and waAlking");
+
+/*
+function silenceTrump(str) 
+{
+		if(str === (/[aei]/));
+		{
+			console.log("yes");
+		}
+}
+
+silenceTrump("prInting and waAelking");
+*/
