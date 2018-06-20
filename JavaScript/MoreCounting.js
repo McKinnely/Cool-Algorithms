@@ -19,11 +19,12 @@ Notes
 If the input array is empty or null, return an empty array.
 */
 
+'use strict'
 
 function countPosSumNeg(arr) 
 {
-    positiveCounter = 0;
-    negativeSum     = 0;
+   let positiveCounter = 0;
+   let negativeSum     = 0;
     
   if (!Array.isArray(arr) || !arr.length) {return arr = [];}
 
@@ -42,4 +43,4 @@ function countPosSumNeg(arr)
         console.log([positiveCounter, negativeSum]);
 }
 
-countPosSumNeg([]);
+countPosSumNeg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15]);
